@@ -1,0 +1,99 @@
+body {
+  background-color: #222233;
+  color: #FF8B8B;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.light-underline {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.crossout-on-hover:hover {
+  text-decoration:line-through;
+}
+
+header nav ul li {
+  padding-right: 0.5em;
+}
+
+header {
+  background-color: #FF8B8B;
+  color: #222233;
+}
+
+main > div.row {
+  padding-top: 1.5rem;
+}
+
+main > div.row div.row {
+  padding-top: 0.5rem;
+}
+
+/* Bike search form */
+#selection-boxes ul {
+  padding-left: 5%;
+}
+
+#selection-boxes label {
+  margin-bottom: 0;
+}
+
+.btn-default {
+  background-color: #dedede;
+}
+
+.btn-default:hover {
+  background-color: #ababab;
+}
+
+input[type=number] {
+  width: 50px;
+}
+
+@media screen and (max-width:575px) {
+  #search-form {
+    padding-left: 5%;
+  }
+}
+
+/* Search results */
+.bike-row {
+  color: lightgrey;
+}
+
+.bike-row:hover {
+  color: #FF8B8B;
+  cursor: pointer;
+}
+
+.bike-row:active {
+  color: white;
+}
+
+.bike-row td {
+  padding-top: 0.25rem; /*override bootstrap 0.75 */
+  padding-bottom: 0.25rem;
+}
+
+.bike-row:not(:first-of-type) td {
+  border-top: none;
+}
+
+/* Modal windows */
+.modal-content {
+  color: #222233;
+}
+
+.modal-header, .modal-footer {
+  border: none; /*override boostrap */
+}
+
+.modal-content .table th, .modal-content .table td {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
